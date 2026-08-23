@@ -6,7 +6,7 @@ timeouts, and video/trace capture in one place.
 from __future__ import annotations
 
 from contextlib import contextmanager
-from typing import Iterator
+context_kwargs: dict[str, Any] = {}
 
 from playwright.sync_api import Browser, BrowserContext, Page, sync_playwright
 
@@ -23,7 +23,7 @@ def new_page(record_video: bool = False, trace: bool = False) -> Iterator[Page]:
             slow_mo=settings.slow_mo_ms,
         )
 
-        context_kwargs = {}
+        context_kwargs: dict[str, str] = {}
         if record_video:
             context_kwargs["record_video_dir"] = "results/videos"
 
