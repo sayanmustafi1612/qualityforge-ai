@@ -1,0 +1,11 @@
+playwright==1.47.0
+pytest==8.3.3
+pytest-xdist==3.6.1
+pytest-rerunfailures==14.0
+requests==2.32.3
+pydantic==2.9.2
+allure-pytest==2.13.5
+streamlit==1.39.0
+pandas==2.2.3
+ruff==0.6.9
+mypy==1.11.2
