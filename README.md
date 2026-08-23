@@ -112,9 +112,3 @@ glance instead of squinting at a wall of green/red CI badges.
 - [x] Phase 4 — Flaky-test intelligence engine + Streamlit dashboard
 - [ ] Phase 5 — LLM-based failure summarization (feed `report.longrepr` from a failed test to an LLM and store a one-line root-cause guess alongside the failure)
 
-## Resume line
-
-> Designed and built QualityForge AI, an open-source quality engineering
-> platform (Python, Playwright, Pytest, Docker, GitHub Actions) with UI,
-> API, and integration test layers, CI quality gates, and a historical
-> flaky-test analytics engine surfaced through a Streamlit dashboard.
